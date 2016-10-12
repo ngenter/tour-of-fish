@@ -1,4 +1,9 @@
 <h1>
   {{title}}
 </h1>
- {{name}}
+<h2>List of Fish</h2>
+<ul class="fish">
+  <li *ngFor="let species of fish">
+    <span class="badge">{{species.id}} </span>{{species.name}}
+  </li>
+</ul>
