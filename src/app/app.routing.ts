@@ -4,6 +4,7 @@ import { TourComponent } from './tour.component';
 import { QuizComponent } from './quiz.component';
 import { AboutComponent } from './about.component';
 import { ContactComponent } from './contact.component';
+import { Quiz1Component } from './quiz1.component';
 
 const APP_ROUTES: Routes = [
     { path: 'home', component: HomeComponent }, 
@@ -11,7 +12,8 @@ const APP_ROUTES: Routes = [
     { path: 'quiz', component: QuizComponent },
     { path: 'about', component: AboutComponent },
     { path: 'contact', component: ContactComponent },
-    { path: '', component: HomeComponent }
+    { path: '', component: HomeComponent },
+    { path: 'quiz1', component: Quiz1Component },
 
 ];
 

@@ -11,6 +11,7 @@ import { Species } from './species';
 })
 export class TourComponent implements OnInit {
     title = 'Tour of Fish';
+    
     FISH: Species[];
     
     selectedSpecies: Species;

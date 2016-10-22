@@ -1,4 +1,7 @@
 export class Species { 
   id: number;
-  name: string
+  name: string;
+  fact1: string;
+  fact2: string;
+  url: string;
 }

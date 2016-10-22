@@ -13,6 +13,7 @@ import { TourComponent } from './tour.component';
 import { QuizComponent } from './quiz.component';
 import { AboutComponent } from './about.component';
 import { Injectable } from '@angular/core';
+import { Quiz1Component } from './quiz1.component';
 
 import { TourService } from './tour.service';
 
@@ -27,6 +28,7 @@ import { TourService } from './tour.service';
     TourComponent,
     QuizComponent,
     AboutComponent,
+    Quiz1Component,
   
   ],
   imports: [

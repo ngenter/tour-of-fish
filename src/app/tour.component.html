@@ -1,11 +1,30 @@
+<!-- Below section should display our list from mock-fish array -->
 <h1>
   {{title}}
 </h1>
 <ul class="fish">
-  <li *ngFor="let species of fish">
+  <li *ngFor="let species of fish" (click)="onSelect(species)">
     <span class="badge">{{species.id}}</span>{{species.name}}
   </li>
 </ul>
-<div>
-   
-</div>
+
+<!-- Below Section should provide details for the selected hero -->
+
+<div *ngIf="selectedSpecies">
+    <img src="{{selectedSpecies.url}}" style="width:275 px; height:200px;">
+    <h1>{{selectedSpecies.name}} Facts.
+        
+    </h1>
+    
+    
+    <div><h2>Fact #1: {{selectedSpecies.fact1}}</h2></div>
+    <div><h2>Fact #2: {{selectedSpecies.fact2}}</h2></div>
+    <div>
+       
+
+<!-- https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSKmUSwwYkuSlk5xYrA2iQmy_wvWjvhaX3OOIOEvMLxhqY1cHC5RA steelhead image -->
+
+<!-- <img src="http://pngimg.com/upload/fish_PNG1151.png" style="width:275 px; height:200px;">  
+
+style="width:275 px; height:200px;">
+-->

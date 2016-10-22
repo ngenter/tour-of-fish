@@ -10,7 +10,7 @@
     width: 15em;
   }
   .fish li {
-    cursor: crosshair;
+    cursor: pointer;
     position: relative;
     left: 0;
     background-color: #EEE;
