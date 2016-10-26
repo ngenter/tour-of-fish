@@ -12,8 +12,11 @@ import { TourService } from './tour.service';
 })
 export class AppComponent { 
   title = 'Tour of Fish';
-  fish: Species [];
+  fish: Species []; }
+ function myFunction() {
+   var score = 0
+ }
   
-}
+
 
 

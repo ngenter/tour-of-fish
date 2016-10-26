@@ -1,4 +1,9 @@
-import { Component, EventEmitter, Output} from '@angular/core'
+import { Component, EventEmitter, Output, } from '@angular/core';
+import { RouterModule, Router } from '@angular/router';
+import { AppComponent } from './app.component';
+
+
+
 
 @Component({
     selector: 'quiz1',
@@ -6,10 +11,16 @@ import { Component, EventEmitter, Output} from '@angular/core'
 })
 
 export class Quiz1Component {
+    
+    constructor(
+        private router: Router) {};
+    
     question1 = "The freshwater variant of a Steelhead is known as a rainbow trout.";
-    @Output() clicked = new EventEmitter<string>();
-    onClicked() {
-        this.clicked.emit('It works!');
-    }
+   onClicked () {
+       console.log('It worked!'); 
+       this.router.navigate(['/quiz2']);
+   }
 
 }
+
+/* [routerLink]="['/quiz1']" */ 

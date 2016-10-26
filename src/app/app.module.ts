@@ -14,6 +14,8 @@ import { QuizComponent } from './quiz.component';
 import { AboutComponent } from './about.component';
 import { Injectable } from '@angular/core';
 import { Quiz1Component } from './quiz1.component';
+import { Quiz2Component } from './quiz2.component';
+import { ReviewComponent } from './review.component';
 
 import { TourService } from './tour.service';
 
@@ -29,6 +31,8 @@ import { TourService } from './tour.service';
     QuizComponent,
     AboutComponent,
     Quiz1Component,
+    Quiz2Component,
+    ReviewComponent,
   
   ],
   imports: [

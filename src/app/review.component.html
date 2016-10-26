@@ -1,0 +1,33 @@
+<h1>Please leave a review </h1>
+
+<form>
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+</form>
+<br><br>
+
+<h3>Please select your gender</h3>
+<form>
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> other
+</form>
+<br><br>
+
+<h3>Please leave a rating</h3>
+<form>
+    <input type="radio" name="rating" value="Poor"> Poor<br>
+    <input type="radio" name="rating" value="Mediocre"> Mediocre<br>
+    <input type="radio" name="rating" value="Superb" checked> Superb
+</form>
+<br><br>
+    <input type="submit" value="Submit">
+    <button (click)="onClicked()">CLICK ME!</button>
+
+
+<!-- Upon hitting the submit button, should bring up a thank you (an alert message from click event) message using interpollation? for fn/last name, record the gender
+     and give a superb rating regardless of what they pick
+ -->

@@ -1,0 +1,18 @@
+button {
+    background-color: black;
+    border: 2px;
+    color: #ff6600;
+}
+
+button:hover {
+    background-color: #ff6600;
+    border: 2px;
+    color: black;
+    cursor:pointer;
+}
+
+
+/* .heroes li.selected:hover {
+    background-color: #BBD8DC !important;
+    color: white;
+*/ 
